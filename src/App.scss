@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(116.82deg, #b9e5f0 0%, #75b2d3 100%);
   height: 100vh;
   width: 100vw;
   @media only screen and (max-width: 600px) {
@@ -10,8 +9,47 @@
     height: 100vh;
   }
 }
+.lightmode {
+  background: linear-gradient(116.82deg, #b9e5f0 0%, #75b2d3 100%);
+}
+
+.darkmode {
+  background: linear-gradient(116.82deg, #121212 0%, #121212 100%);
+}
 
 * {
   margin: 0;
   padding: 0;
+}
+.authentication {
+  color: white;
+  width: 450px;
+  height: 750px;
+  background: linear-gradient(
+    116.82deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.054) 100%
+  );
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.04);
+  backdrop-filter: blur(94px);
+  border-radius: 12px;
+  padding: 40px 100px;
+  @media only screen and (max-width: 600px) {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0px 20px;
+    border-radius: 0px;
+  }
+}
+
+.authentication .button {
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  @media only screen and (max-width: 600px) {
+    overflow: hidden;
+    margin-top: 20px;
+  }
 }

@@ -1,26 +1,10 @@
 .loginpannel {
-  color: white;
+  height: 95%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 450px;
-  height: 750px;
-  background: linear-gradient(
-    116.82deg,
-    rgba(255, 255, 255, 0.3) 0%,
-    rgba(255, 255, 255, 0.054) 100%
-  );
-  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.04);
-  backdrop-filter: blur(94px);
-  border-radius: 12px;
-  padding: 0px 100px;
-  @media only screen and (max-width: 600px) {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    padding: 0px 20px;
-  }
+  width: 100%;
 }
 
 .loginpannel > .input {
