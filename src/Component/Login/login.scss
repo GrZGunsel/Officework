@@ -114,7 +114,8 @@
   margin-right: 5px;
 }
 .checkbox > input:checked {
-  border: 6px solid #60a5cb;
+  border: 6px solid #42a4dd;
+  background-color: rgb(206, 206, 206) !important;
 }
 
 .loginpannel .forgetPassword {
