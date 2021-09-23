@@ -7,11 +7,11 @@ const login = ({ Logo }) => {
       <h1>Welcome Back!</h1>
       <div className="input">
         <label htmlFor="">Email or User Name</label>
-        <input type="text" />
+        <input type="text" id="email" required />
       </div>
       <div className="input">
         <label htmlFor="">Password</label>
-        <input type="text" />
+        <input type="text" id="password" required />
       </div>
       <div className="forgetPassword">
         <div className="checkbox">
